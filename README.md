@@ -48,13 +48,11 @@ Open app.py and add_imgs_to_db to update the MySQL connection details if necessa
 
 
 
-<div style="clear: both; margin-top: 20px; margin-bottom: 20px;">
-  <div align="center">
-    <figure>
-      <img src="website pictures and gif/front page - 1.png" alt="SignLingo Front Page" width="600">
-      <figcaption>Figure 1: Front page of the SignLingo application</figcaption>
-    </figure>
-  </div>
+<div align="center">
+  <figure style="display: inline-block;">
+    <img src="website pictures and gif/front page - 1.png" alt="SignLingo Front Page" width="600">
+    <figcaption style="text-align: center; margin-top: 10px;">Figure 1: Front page of the SignLingo application</figcaption>
+  </figure>
 </div>
 
 
