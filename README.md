@@ -44,7 +44,7 @@ Open app.py and add_imgs_to_db to update the MySQL connection details if necessa
 <br>
 <br>
 <p align="center">
-  <img src="website pictures and gif/front page - 1.png" alt="SignLingo Front Page" width="600">
+  <img src="website pictures and gif/front page.gif" alt="SignLingo Front Page" width="600">
 </p>
 <p align="center">
   <em> Front page of the SignLingo application</em>
