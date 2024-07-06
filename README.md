@@ -39,7 +39,7 @@ Open app.py and add_imgs_to_db to update the MySQL connection details if necessa
 2. Open your web browser and navigate to http://localhost:5001 or http://127.0.0.1:5001 to access the SignLingo interface.
 
 
-
+![Front page](website pictures and gif/front page - 1.png)
 
 
 
