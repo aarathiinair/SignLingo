@@ -55,6 +55,86 @@ Open app.py and add_imgs_to_db to update the MySQL connection details if necessa
   <em>Figure 1: Front page of the SignLingo application</em>
 </p>
 
+<br>
+<br>
+
+<p align="center">
+  <img src="website pictures and gif/ISL -letter p.png" alt="ISL Letter P" width="600">
+</p>
+<p align="center">
+  <em>Figure 1: Indian Sign Language (ISL) representation of the letter P</em>
+</p>
+
+<br>
+<br>
+
+<p align="center">
+  <img src="website pictures and gif/isl - B.png" alt="ISL Letter B" width="600">
+</p>
+<p align="center">
+  <em>Figure 2: Indian Sign Language (ISL) representation of the letter B</em>
+</p>
+
+<br>
+<br>
+
+<p align="center">
+  <img src="website pictures and gif/isl - letter A.png" alt="ISL Letter A" width="600">
+</p>
+<p align="center">
+  <em>Figure 3: Indian Sign Language (ISL) representation of the letter A</em>
+</p>
+
+<br>
+<br>
+
+<p align="center">
+  <img src="website pictures and gif/isl - letter V.png" alt="ISL Letter V" width="600">
+</p>
+<p align="center">
+  <em>Figure 4: Indian Sign Language (ISL) representation of the letter V</em>
+</p>
+
+<br>
+<br>
+
+<p align="center">
+  <img src="website pictures and gif/asl - letter Lpng.png" alt="ASL Letter L" width="600">
+</p>
+<p align="center">
+  <em>Figure 5: American Sign Language (ASL) representation of the letter L</em>
+</p>
+
+<br>
+<br>
+
+<p align="center">
+  <img src="website pictures and gif/asl - letter d.png" alt="ASL Letter D" width="600">
+</p>
+<p align="center">
+  <em>Figure 6: American Sign Language (ASL) representation of the letter D</em>
+</p>
+
+<br>
+<br>
+
+<p align="center">
+  <img src="website pictures and gif/asl - letter f .png" alt="ASL Letter F" width="600">
+</p>
+<p align="center">
+  <em>Figure 7: American Sign Language (ASL) representation of the letter F</em>
+</p>
+
+<br>
+<br>
+
+<p align="center">
+  <img src="website pictures and gif/asl - letter o.png" alt="ASL Letter O" width="600">
+</p>
+<p align="center">
+  <em>Figure 8: American Sign Language (ASL) representation of the letter O</em>
+</p>
+
 
 
 
