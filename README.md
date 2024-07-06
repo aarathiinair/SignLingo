@@ -9,7 +9,7 @@ Key ML models behind SignLingo:
 * GridSearchCV: Fine-tunes our model for optimal performance
 * StandardScaler: Normalizes data for consistent sign recognition.
 
-## How to Run SignLingo
+### How to Run SignLingo
 Follow these steps to set up and run SignLingo on your local machine:  
 
 #### Prerequisites:
