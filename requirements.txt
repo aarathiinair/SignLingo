@@ -1,0 +1,6 @@
+Flask==2.0.1
+Flask-SocketIO==5.1.1
+opencv-python==4.5.3.56
+mediapipe==0.10.11
+numpy==1.21.2
+mysql-connector-python==8.0.26
