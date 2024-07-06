@@ -117,7 +117,17 @@ Open app.py and add_imgs_to_db to update the MySQL connection details if necessa
 
 
 
-
+<br>
+<br>
+<p align="center">
+  <video width="600" controls>
+    <source src="website pictures and gif/giphy.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
+<p align="center">
+  <em>Figure 10: Demonstration of SignLingo application in action</em>
+</p>
 
 
 
