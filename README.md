@@ -1,68 +1,52 @@
-
-
 # SignLingo
+SignLingo is an innovative software project designed to bridge communication gaps between users of Indian Sign Language (ISL) and American Sign Language (ASL). Input a sign and it translates between these two widely used sign languages in real-time.
 
-SignLingo is an innovative software project designed to bridge communication gaps between users of Indian Sign Language (ISL) and American Sign Language (ASL). Our application leverages machine learning algorithms to provide real-time translation between these two widely used sign languages. By facilitating seamless communication, SignLingo aims to foster greater understanding and connection between deaf communities across different cultural contexts. Whether you're a sign language user, an interpreter, or someone interested in cross-cultural communication, SignLingo offers a powerful tool to break down language barriers and promote global deaf communication.
+[Insert GIF or video demonstration here, similar to the Cinecomic example]
 
-Key ML models behind SignLingo:
-* SVM: Classifies hand signs with high accuracy
-* GridSearchCV: Fine-tunes our model for optimal performance
-* StandardScaler: Normalizes data for consistent sign recognition.
+## Methodology
+Our project consists of the following core modules:
+1. **Image Processing**
+    - Processes input images of hand signs for ASL and ISL
+2. **Machine Learning Models**
+    - SVM: Classifies hand signs with high accuracy
+    - GridSearchCV: Fine-tunes our model for optimal performance
+    - StandardScaler: Normalizes data for consistent sign recognition
+3. **Database Management**
+    - Stores and retrieves sign language images for each letter
+4. **Real-time Translation**
+    - Provides instant translation between ASL and ISL
+5. **Web Interface**
+    - Offers a user-friendly interface for seamless interaction
 
-### How to Run SignLingo
-Follow these steps to set up and run SignLingo on your local machine:  
+> Read the project report for detailed explanations
 
-#### Prerequisites:
-* Python 3.x 
-* pip (Python package installer)
-* MySQL server
-* ASL and ISL image files for each letter
+## Pre-requisites
+- Python 3.x
+- pip (Python package installer)
+- MySQL server
+- ASL and ISL image files for each letter
 
-#### Populate the Database:
-1. Place your ASL and ISL image files in a known directory.
-2. The script assumes they are in C:/Program Files/MySQL/MySQL Server 8.0/Uploads/.
-3. Update the image file paths in the database population script if your images are stored elsewhere.
-4. Run the database population script:
-   python add_imgs_to_db.py.py
-  This script will insert the images for each letter into the translation_table.
+## Running the project
+- Ensure you have the necessary ASL and ISL image files in the correct directory
+- Update MySQL connection details in `app.py` and `add_imgs_to_db.py` if necessary
+- Populate the database: `python add_imgs_to_db.py`
+- Run the flask server: `python app.py`
+- Open the localhost link on your browser (Eg: `http://localhost:5001` or `http://127.0.0.1:5001`)
 
-#### Configuration
-Open app.py and add_imgs_to_db to update the MySQL connection details if necessary:
->>host="localhost",
->>user="root",
->>password="ArteryNoir#5",
->>database="aarathi"
-
-#### Running the Application
-1. Start the main application:
-  python app.py
-2. Open your web browser and navigate to http://localhost:5001 or http://127.0.0.1:5001 to access the SignLingo interface.
-
-
-
-
-<br>
-<br>
+## Some more examples
 <p align="center">
   <img src="website pictures and gif/front page.gif" alt="SignLingo Front Page" width="600">
 </p>
 <p align="center">
-  <em> Front page of the SignLingo application</em>
+  <em>Front page of the SignLingo application</em>
 </p>
-<br>
-<br>
-
-
-
 
 <br>
 <br>
+
 <p align="center">
   <img src="website pictures and gif/1080.gif" alt="SignLingo Demo GIF" width="600">
 </p>
 <p align="center">
-  <em> Demonstration of SignLingo application in action</em>
+  <em>Demonstration of SignLingo application in action</em>
 </p>
-
-
-
