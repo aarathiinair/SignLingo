@@ -54,7 +54,8 @@ database="aarathi"
 
 
 
-
+<br>
+<br>
 
 
 <p align="center">
@@ -63,6 +64,7 @@ database="aarathi"
 <p align="center">
   <em>Front page of the SignLingo application</em>
 </p>
+
 <br>
 <br>
 <p align="center">
