@@ -43,12 +43,12 @@ Follow these steps to set up and run SignLingo on your local machine:
 
 ### Configuration
 Open app.py and add_imgs_to_db to update the MySQL connection details if necessary:
-```python
-host="localhost",
-user="root",
-password="ArteryNoir#5",
-database="aarathi"
-```
+   ```python
+   host="localhost",
+   user="root",
+   password="ArteryNoir#5",
+   database="aarathi"
+   ```
 
 ### Running the Application
 1. Start the main application:
