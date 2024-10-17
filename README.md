@@ -1,8 +1,6 @@
 # SignLingo
 SignLingo is an innovative software project designed to bridge communication gaps between users of Indian Sign Language (ISL) and American Sign Language (ASL). Input a sign and it translates between these two widely used sign languages in real-time.
 
-[Insert GIF or video demonstration here, similar to the Cinecomic example]
-
 ## Methodology
 Our project consists of the following core modules:
 1. **Image Processing**
@@ -17,8 +15,6 @@ Our project consists of the following core modules:
     - Provides instant translation between ASL and ISL
 5. **Web Interface**
     - Offers a user-friendly interface for seamless interaction
-
-> Read the project report for detailed explanations
 
 ## Pre-requisites
 - Python 3.x
