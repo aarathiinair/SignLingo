@@ -1,5 +1,7 @@
 # SignLingo
-SignLingo is an innovative software project designed to bridge communication gaps between users of Indian Sign Language (ISL) and American Sign Language (ASL). Input a sign and it translates between these two widely used sign languages in real-time.
+SignLingo is an innovative software project designed to bridge communication gaps between users of Indian Sign Language (ISL) and American Sign Language (ASL). Our application leverages machine learning algorithms to provide real-time translation between these two widely used sign languages. By facilitating seamless communication, SignLingo aims to foster greater understanding and connection between deaf communities across different cultural contexts. Whether you're a sign language user, an interpreter, or someone interested in cross-cultural communication, SignLingo offers a powerful tool to break down language barriers and promote global deaf communication.
+
+[Insert GIF or video demonstration here, similar to the Cinecomic example]
 
 ## Methodology
 Our project consists of the following core modules:
@@ -16,18 +18,48 @@ Our project consists of the following core modules:
 5. **Web Interface**
     - Offers a user-friendly interface for seamless interaction
 
+> Read the project report for detailed explanations
+
 ## Pre-requisites
 - Python 3.x
 - pip (Python package installer)
 - MySQL server
 - ASL and ISL image files for each letter
 
-## Running the project
-- Ensure you have the necessary ASL and ISL image files in the correct directory
-- Update MySQL connection details in `app.py` and `add_imgs_to_db.py` if necessary
-- Populate the database: `python add_imgs_to_db.py`
-- Run the flask server: `python app.py`
-- Open the localhost link on your browser (Eg: `http://localhost:5001` or `http://127.0.0.1:5001`)
+## How to Run SignLingo
+Follow these steps to set up and run SignLingo on your local machine:
+
+### Prerequisites:
+* Python 3.x 
+* pip (Python package installer)
+* MySQL server
+* ASL and ISL image files for each letter
+
+### Populate the Database:
+1. Place your ASL and ISL image files in a known directory.
+2. The script assumes they are in C:/Program Files/MySQL/MySQL Server 8.0/Uploads/.
+3. Update the image file paths in the database population script if your images are stored elsewhere.
+4. Run the database population script:
+   ```
+   python add_imgs_to_db.py
+   ```
+   This script will insert the images for each letter into the translation_table.
+
+### Configuration
+Open app.py and add_imgs_to_db to update the MySQL connection details if necessary:
+```python
+host="localhost",
+user="root",
+password="ArteryNoir#5",
+database="aarathi"
+```
+
+### Running the Application
+1. Start the main application:
+   ```
+   python app.py
+   ```
+2. Open your web browser and navigate to http://localhost:5001 or http://127.0.0.1:5001 to access the SignLingo interface.
 
 ## Some more examples
 <p align="center">
