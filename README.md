@@ -37,18 +37,24 @@ Follow these steps to set up and run SignLingo on your local machine:
    This script will insert the images for each letter into the translation_table.
 ### Configuration
 Open app.py and add_imgs_to_db to update the MySQL connection details if necessary:
-   ```python
-   host="localhost",
-   user="root",
-   password="ArteryNoir#5",
-   database="aarathi"
-   ```
+```python
+host="localhost",
+user="root",
+password="ArteryNoir#5",
+database="aarathi"
+```
 ### Running the Application
 1. Start the main application:
    ```
    python app.py
    ```
 2. Open your web browser and navigate to http://localhost:5001 or http://127.0.0.1:5001 to access the SignLingo interface.
+
+
+
+
+
+
 <p align="center">
   <img src="website pictures and gif/front page.gif" alt="SignLingo Front Page" width="600">
 </p>
